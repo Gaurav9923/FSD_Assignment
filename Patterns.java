@@ -3,9 +3,13 @@ public class Patterns {
     public static void main(String[] args) {
         int n = 11;
         printIneuron(n);
+        System.out.println();
         wap2(n);
+        System.out.println();
         wap3(n);
+        System.out.println();
         wap4(n);
+        System.out.println();
         wap5(n);
 
 
@@ -118,7 +122,7 @@ public class Patterns {
     public static void wap2(int n) {
         for (int i = 1; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                System.out.print(i);
+                System.out.print(i+" ");
             }
             System.out.println();
 
